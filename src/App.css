@@ -1,0 +1,21 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background:linear-gradient(264deg, rgba(10,45,74,1) 0%, rgba(32,52,87,1) 35%, rgba(10,40,59,1) 100%);
+}
+.container{
+  background-color:#f8f8f8 ;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgb(225, 224, 224);
+  width: 500px;
+  height:80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
